@@ -1,0 +1,105 @@
+[
+    {
+        "title": "the domain is truck-admin.eu-east-1.indriverapp.com and Enter the management system of the blasting mobile phone verification code",
+        "substate": "resolved",
+        "url": "https://hackerone.com/reports/1991376",
+        "cwe": "Business Logic Errors",
+        "severity_rating": "High",
+        "cve_ids": [],
+        "bounty": null,
+        "votes": 37,
+        "hacktivity_summary": ""
+    },
+    {
+        "title": "Ability to  bypass Admin override on Cloudflare WARP Android",
+        "substate": "resolved",
+        "url": "https://hackerone.com/reports/2043885",
+        "cwe": "Client-Side Enforcement of Server-Side Security",
+        "severity_rating": "High",
+        "cve_ids": [
+            "CVE-2023-3747"
+        ],
+        "bounty": null,
+        "votes": 27,
+        "hacktivity_summary": "A security vulnerability allowed an attacker with local access to an Android device running Cloudflare WARP to bypass the Admin override feature by changing the device's date and time settings. This allowed the attacker to extend the maximum allowed disconnected time of the WARP client granted by an override code."
+    },
+    {
+        "title": "Path traversal allows tricking the Talk Android app into writing files into it's root directory ",
+        "substate": "resolved",
+        "url": "https://hackerone.com/reports/1997029",
+        "cwe": "Path Traversal",
+        "severity_rating": "Medium",
+        "cve_ids": [
+            "CVE-2023-39957"
+        ],
+        "bounty": null,
+        "votes": 35,
+        "hacktivity_summary": ""
+    },
+    {
+        "title": "Arbitrary file write triggered by deeplink abuse - MetaMask Android",
+        "substate": "resolved",
+        "url": "https://hackerone.com/reports/1768166",
+        "cwe": "Business Logic Errors",
+        "severity_rating": "Medium",
+        "cve_ids": [],
+        "bounty": null,
+        "votes": 33,
+        "hacktivity_summary": "A vulnerability was discovered in the MetaMask Android app that allowed for arbitrary files to be written to disk. Attackers were able to exploit this vulnerability by deeplinking into MetaMask's in-app browser and triggering the immediate download of an attacker-supplied file. Users were not alerted to the download until after the payload had been downloaded."
+    },
+    {
+        "title": "MetaMask Browser URL and Transaction Origin Spoofing - Metamask wallet Android & Metamask wallet iOS",
+        "substate": "resolved",
+        "url": "https://hackerone.com/reports/1751333",
+        "cwe": "Cross-site Scripting (XSS) - Stored",
+        "severity_rating": "High",
+        "cve_ids": [],
+        "bounty": null,
+        "votes": 80,
+        "hacktivity_summary": ""
+    },
+    {
+        "title": "Phishing/Malware site blocking on Brave iOS can be bypassed with trailing dot in hostname",
+        "substate": "resolved",
+        "url": "https://hackerone.com/reports/1068505",
+        "cwe": "Violation of Secure Design Principles",
+        "severity_rating": "Medium",
+        "cve_ids": [],
+        "bounty": 250,
+        "votes": 8,
+        "hacktivity_summary": "A vulnerability was discovered in Brave iOS nightly build that allowed bypassing of the phishing/malware site blocking feature by adding a trailing dot in the hostname. This allowed users to access prohibited sites without being blocked by Brave Shield protection."
+    },
+    {
+        "title": "Brave Shield for iOS is weak against IDN homograph attacks",
+        "substate": "resolved",
+        "url": "https://hackerone.com/reports/1819329",
+        "cwe": "Phishing",
+        "severity_rating": "Low",
+        "cve_ids": [],
+        "bounty": 150,
+        "votes": 6,
+        "hacktivity_summary": "A vulnerability was found in Brave Shield for iOS, where it was weak against IDN homograph attacks. This allowed attackers to deceive users into believing that a site is legitimate by showing a different domain name in the Brave Shield panel. The vulnerability affected Brave for iOS version 1.45.2."
+    },
+    {
+        "title": "Facebook App API credentials leaked in the APK",
+        "substate": "resolved",
+        "url": "https://hackerone.com/reports/1641475",
+        "cwe": "Cleartext Storage of Sensitive Information",
+        "severity_rating": "Medium",
+        "cve_ids": [],
+        "bounty": null,
+        "votes": 17,
+        "hacktivity_summary": "Facebook App API credentials were leaked in the GlassWire version 1,1,26,0b (F1827380) APK file, including the App ID and App Secret. This could allow an attacker to modify Facebook App settings using the leaked token."
+    },
+    {
+        "title": "App pin of the Android app can be bypassed via 3rdparty apps generating deep links",
+        "substate": "resolved",
+        "url": "https://hackerone.com/reports/1825679",
+        "cwe": "Improper Authentication - Generic",
+        "severity_rating": "Low",
+        "cve_ids": [],
+        "bounty": 150,
+        "votes": 13,
+        "hacktivity_summary": ""
+    }
+]
