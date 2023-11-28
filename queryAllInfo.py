@@ -84,7 +84,7 @@ def queryAllWithType(fromInt, maxsize, filterFunc) :
     return retList
 
 if __name__ == "__main__" :
-    f = open("./aaa.json", "w", encoding='utf-8')
+    f = open("./output.json", "w", encoding='utf-8')
     f.flush()
-    json.dump(queryAllWithType(0, 500, filterMobileReports), f, ensure_ascii=False, indent=4)
+    json.dump(queryAllWithType(0, 10000, filterMobileReports), f, ensure_ascii=False, indent=4)
     f.close()
